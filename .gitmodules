@@ -1,0 +1,24 @@
+[submodule "sample_usd"]
+	path = sample_usd
+	url = https://github.com/ft-lab/sample_usd.git
+[submodule "OpenUSD-Code-Samples"]
+	path = OpenUSD-Code-Samples
+	url = https://github.com/NVIDIA-Omniverse/OpenUSD-Code-Samples.git
+[submodule "LearnOpenUSD"]
+	path = LearnOpenUSD
+	url = https://github.com/NVIDIA-Omniverse/LearnOpenUSD.git
+[submodule "OpenUSD-plugin-samples"]
+	path = OpenUSD-plugin-samples
+	url = https://github.com/NVIDIA-Omniverse/OpenUSD-plugin-samples.git
+[submodule "usd-wg-assets"]
+	path = usd-wg-assets
+	url = https://github.com/usd-wg/assets.git
+[submodule "ALab"]
+	path = ALab
+	url = https://github.com/DigitalProductionExampleLibrary/ALab.git
+[submodule "OpenUSD"]
+	path = OpenUSD
+	url = https://github.com/PixarAnimationStudios/OpenUSD.git
+[submodule "caldera"]
+	path = caldera
+	url = https://github.com/Activision/caldera.git
