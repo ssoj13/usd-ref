@@ -1,4 +1,4 @@
-# usd.ref
+# usd-ref
 
 Curated collection of OpenUSD reference scenes, production assets, and test repositories (linked as shallow git submodules) for testing USD composition, sublayers, overrides, variants, payloads, `timeSamples` animation, and `UsdSkel`.
 
@@ -25,5 +25,5 @@ Curated collection of OpenUSD reference scenes, production assets, and test repo
 ## Quick Setup
 
 ```powershell
-git clone --recurse-submodules --shallow-submodules https://github.com/ssoj13/usd.ref.git
+git clone --recurse-submodules --shallow-submodules https://github.com/ssoj13/usd-ref.git
 ```
