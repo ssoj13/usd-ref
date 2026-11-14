@@ -1,0 +1,13 @@
+[package]
+name = "usd-bench"
+version = "0.1.0"
+edition = "2024"
+description = "Headless speed & correctness benchmark harness for usd-rs against usd-ref scenes"
+
+[dependencies]
+usd-core = { git = "ssh://git@github.com/ssoj13/usd-rs.git", branch = "main" }
+usd-sdf = { git = "ssh://git@github.com/ssoj13/usd-rs.git", branch = "main" }
+usd-geom = { git = "ssh://git@github.com/ssoj13/usd-rs.git", branch = "main" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sysinfo = "0.39"

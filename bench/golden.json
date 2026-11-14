@@ -1,0 +1,44 @@
+{
+  "sample_instance": {
+    "prim_count": 5,
+    "mesh_count": 1,
+    "used_layers": 2,
+    "composition_error_count": 0,
+    "total_faces": 1
+  },
+  "wg_shader_ball": {
+    "prim_count": 122,
+    "mesh_count": 12,
+    "used_layers": 7,
+    "composition_error_count": 4,
+    "total_faces": 7998
+  },
+  "wg_elephant_skel": {
+    "prim_count": 23,
+    "mesh_count": 3,
+    "used_layers": 2,
+    "composition_error_count": 0,
+    "total_faces": 2762
+  },
+  "wg_chess_set": {
+    "prim_count": 85,
+    "mesh_count": 21,
+    "used_layers": 30,
+    "composition_error_count": 0,
+    "total_faces": 400798
+  },
+  "alab_load_none": {
+    "prim_count": 0,
+    "mesh_count": 0,
+    "used_layers": 77,
+    "composition_error_count": 0,
+    "total_faces": 0
+  },
+  "alab_full": {
+    "prim_count": 13,
+    "mesh_count": 0,
+    "used_layers": 79,
+    "composition_error_count": 0,
+    "total_faces": 0
+  }
+}

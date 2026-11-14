@@ -1,0 +1,105 @@
+{
+  "scenes": [
+    {
+      "id": "sample_instance",
+      "tier": 1,
+      "path": "sample_usd/samples/instance/instance_test.usda",
+      "load_none": false,
+      "eval_meshes": true,
+      "max_rss_mb": 2048,
+      "timeout_sec": 30
+    },
+    {
+      "id": "wg_shader_ball",
+      "tier": 1,
+      "path": "usd-wg-assets/full_assets/StandardShaderBall/standard_shader_ball_scene.usda",
+      "load_none": false,
+      "eval_meshes": true,
+      "max_rss_mb": 4096,
+      "timeout_sec": 60
+    },
+    {
+      "id": "wg_elephant_skel",
+      "tier": 1,
+      "path": "usd-wg-assets/full_assets/ElephantWithMonochord/SoC-ElephantWithMonochord.usdc",
+      "load_none": false,
+      "eval_meshes": true,
+      "max_rss_mb": 4096,
+      "timeout_sec": 60
+    },
+    {
+      "id": "wg_chess_set",
+      "tier": 1,
+      "path": "usd-wg-assets/full_assets/OpenChessSet/chess_set.usda",
+      "load_none": false,
+      "eval_meshes": true,
+      "max_rss_mb": 4096,
+      "timeout_sec": 60
+    },
+    {
+      "id": "alab_load_none",
+      "tier": 2,
+      "path": "ALab/ALab/entry.usda",
+      "load_none": true,
+      "eval_meshes": false,
+      "max_rss_mb": 6144,
+      "timeout_sec": 120
+    },
+    {
+      "id": "alab_full",
+      "tier": 2,
+      "path": "ALab/ALab/entry.usda",
+      "load_none": false,
+      "eval_meshes": true,
+      "max_rss_mb": 12288,
+      "timeout_sec": 240
+    },
+    {
+      "id": "caldera_prop_basketball",
+      "tier": 3,
+      "path": "caldera/assets/source_data/cp_basketball.gdt.usd",
+      "load_none": false,
+      "eval_meshes": true,
+      "max_rss_mb": 4096,
+      "timeout_sec": 60
+    },
+    {
+      "id": "caldera_cameras_layer",
+      "tier": 3,
+      "path": "caldera/layers/cameras.usd",
+      "load_none": false,
+      "eval_meshes": false,
+      "max_rss_mb": 4096,
+      "timeout_sec": 60
+    },
+    {
+      "id": "caldera_load_none",
+      "tier": 3,
+      "path": "caldera/caldera.usda",
+      "load_none": true,
+      "eval_meshes": false,
+      "max_rss_mb": 8192,
+      "timeout_sec": 180
+    },
+    {
+      "id": "caldera_gulags_load_none",
+      "tier": 3,
+      "path": "caldera/caldera.usda",
+      "load_none": true,
+      "mask": "/world/mp_wz_island/mp_wz_island_paths/mp_wz_island_geo/map_gulags",
+      "eval_meshes": false,
+      "max_rss_mb": 8192,
+      "timeout_sec": 180
+    },
+    {
+      "id": "caldera_gulags_full",
+      "tier": 3,
+      "path": "caldera/caldera.usda",
+      "load_none": false,
+      "mask": "/world/mp_wz_island/mp_wz_island_paths/mp_wz_island_geo/map_gulags",
+      "eval_meshes": true,
+      "max_rss_mb": 12288,
+      "timeout_sec": 300
+    }
+  ]
+}
